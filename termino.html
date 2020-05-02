@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function termino(str) {
+        let lst = [] ,lst1 = [];
+        for (let i=0;i<str.length;i++) (str[i]==="(")? lst1.push("("):(str[i]===")")? lst1.length > 0 ? lst1.pop() : lst.push(")"):"";
+        return (lst.concat(lst1)).length;
+    }
+    console.log(termino(")("));
+</script>
+</body>
+</html>
