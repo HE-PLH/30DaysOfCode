@@ -1,2 +1,2 @@
-# easy-projects
-Day1: https://github.com/HE-PLH/easy-projects/Blob/Counter.html
+# 30DaysOfCode
+Day1: https://github.com/HE-PLH/30DaysOfCode/Blob/Counter.html
